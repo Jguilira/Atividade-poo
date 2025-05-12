@@ -9,7 +9,7 @@ while True:
     aluno = Aluno(nome, nota)
     lista_alunos.append(aluno)
 
-# Exibindo todos os alunos cadastrados
+
 print("\n--- Lista de Alunos Cadastrados ---")
 for aluno in lista_alunos:
     aluno.exibir_informacoes()
